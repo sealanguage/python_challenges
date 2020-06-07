@@ -18,11 +18,6 @@ n = int(input())     # n is number of students
         # print("scores is ", scores)
         # print("sum is ", sum)
 
-        avg = sum/3
-        print(avg)
+    avg = "{:.2f}".format(sum/3)
+    print(avg)
         
-
-
-    # print(scores)      # scores is list of grades for nth person
-    # print(name)
-    # print(student_marks)
